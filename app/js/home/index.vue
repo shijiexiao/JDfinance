@@ -1,18 +1,20 @@
 <template lang="html">
-    <div :class="$style.home">
-        <h1>我是 你吧把</h1>
+    <div>
+        <Heador></Heador>
+        <Hslider></Hslider>
+        <span>杰哥在线教你做人</span>
+
     </div>
 </template>
 
 <script>
-export default {
-}
-</script>
+    import Heador from '../public/header'
+    import Hslider from './hslider'
 
-<style lang="scss" module>
-  @import '../../css/reset.scss';
-  .home{
-    color: red;
-    font-size: 60px;
-  }
-</style>
+
+    export default {
+        components: {
+            Heador,Hslider
+        }
+    }
+</script>
