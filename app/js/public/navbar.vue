@@ -26,7 +26,7 @@
                 </router-link>
             </li>
             <li>
-                <router-link :to="{ name: 'home'}">
+                <router-link :to="{ name: 'my'}">
                     <img src="//img12.360buyimg.com/jrpmobile/jfs/t3340/68/639059082/2591/800e2d6b/580f51cdN4caf20b2.png?width=66&height=66" alt="">
                     <p>我的</p>
                 </router-link>
@@ -60,6 +60,7 @@
         .content{
             @include flex(row);
             justify-content: space-around;
+            z-index: 99999999999999!important;
             li{
                 text-align: center;
                 a{
