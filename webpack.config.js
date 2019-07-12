@@ -55,9 +55,10 @@ module.exports = env => {
             contentBase: './dist',
             hot: true,
             compress: true,
-            port: 9000,
+            port: 3006,
             clientLogLevel: "none",
-            quiet: true
+            quiet: true,
+            disableHostCheck: true
         },
         module: {
             loaders: [

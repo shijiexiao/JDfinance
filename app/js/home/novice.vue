@@ -1,5 +1,5 @@
 <template>
-    <Panel :title="'E淘特权'" :class="$style.panel">
+    <Panel :title="'杰哥在线编程：曾志强看到没？'" :class="$style.panel">
         <!--neirong-->
         <section :class="$style.content">
             <div :class="$style.item">
